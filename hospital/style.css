@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: whitesmoke;
+    height: 3rem;
+}
+.container .top-na .na-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .top-na .na-item .na-link{
+    justify-content: space-between;
+ 
+}
+.container .top-na .na-item .na-link .na-icon{
+    justify-content: space-between;
+    width: 10vw;
+}
+.down-na{
+    height: 8vh;
+}
+.down-na .na-item{
+    display: flex;
+    justify-content: space-between;
+}
+.down-na .na-item .na-brand .fab{
+font-size: 2rem;
+}
+.down-na .na-item .search-icon{
+    font-size: 2rem;
+}
+.down-na .na-item .menus .menu-item{
+    display: flex;
+    justify-content: space-around;   
+}
+.down-na .na-item .menus .menu-item .menu-link{
+    margin: 0rem 1rem;
+}
+.down-na .na-item .admin{
+    font-size: 2rem;
+}
+.down-na .na-item .com-link .user{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.img-fluid{
+    width: 100%;
+    height: 80vh;
+}
+#carousel-caption{
+    margin-top:-50%;
+}
+#carousel-caption .hero .hero-design{
+    color: white;
+    clip-path: polygon(0 0, 0 100%, 80% 50%, 100% 100%,  );
+}
+#carousel-caption .hero .hero-big .big-text{
+    font-size: 5rem;
+    font-weight: 700;
+}
+/* start of categories type */
+section .container .category-text{
+    margin-top: 4rem;
+}
+section .container .category-text h1{
+    font-weight: 1000;
+}
+/* start of the icon section  */
+ .icon-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 10%;
+    flex-wrap: wrap;
+}
+ .icon-row .icon-card{
+     transition: all .5s ease;
+     width: 10vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: green;
+     border-radius: 5%;
+
+}
+.icon-row .icon-card:hover{
+background: green;
+color: white;
+}
+.icon-row .icon-card .icon i{
+    font-size: 5rem;
+    margin: 10% 0%;
+}
+/*  end of the icon section  */
+/* start of big div */
+.black-div{
+    display: flex;
+    background: rgb(58, 53, 53);
+    justify-content: space-around;
+    align-items: center;
+}
+.black-div .green-div{
+    background: green;
+    border-radius: 3%;
+    margin-bottom: -5%;
+    margin-top: 2%;
+}
+.black-div .green-div .green-div-text{
+    margin: 5% 10%;
+}
+.black-div .green-div .green-div-text p,h1{
+    color: white;
+}
+.black-div .green-div .green-div-text h1{
+    font-weight: 700;
+}
+.black-div .green-div .green-div-text button{
+    width: 13vw;
+    height: 8vh;
+    border-radius: 5%;
+    color: black;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+    margin: 5%;
+    transition: .5s ease;
+}
+.black-div .green-div .green-div-text button:hover{
+    background: green;
+    border:3px solid black;
+    color: yellow;
+}
+.black-div .black-div-1{
+    background: rgb(58, 53, 53) ;
+    width: 10rem;
+    height: 10rem;
+    margin-right: 10rem;
+}
+
+ 
+.black-div .black-div-1 .icon-div i{
+    font-size: 4rem;
+    float: right;
+    border: 2px groove white;
+    color: yellow;
+}
+.black-div .black-div-1 .black-div-text h4{
+    color: white;
+}
+.yellow-div{
+    width: 100%;
+    height: 45vh;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow-div .text-row{
+    display: flex;
+    width: 60vw;
+    justify-content: space-around;
+} 
+.yellow-div .text-row .text1 h1{
+    font-size: 5rem;
+    color: black;
+    font-weight: none;
+}
+/* end of big div */
+/* start of text nominals */
+.carde-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-top: 5rem;
+}
+.carde-div .carde{
+    width: 15vw;
+    margin: 0% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2rem 1rem 2rem 0rem burlywood;
+}
+.carde-div .carde .carde-text{
+    padding: 5%;
+}
+.carde-div .carde .carde-text p{
+    font-size: 1.2rem;
+}
+.carde-div .carde .carde-img img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.carde-div .carde .carde-img p{
+    color: black;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.carde-div .carde .carde-img p:hover{
+    color: green;
+}
+/* End of text nominals */
+/* start of news artical section  */
+.container .row .col-12 .card .card-body .text{
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .col-12 .card .card-body {
+    padding: 10%;
+}
+.container .row .col-12 .card {
+    box-shadow: 1rem 2rem 3rem burlywood;
+}
+.container .row .col-12 .card .card-body h3{
+    color: black;
+    transition: .5s ease;
+    cursor: pointer;
+}
+.container .row .col-12 .card .card-body h3:hover{
+color: green;
+}
+/* start of news artical section  */
+/* start of fluid content */
+.fluid-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(58, 53, 53);
+    height: 40vh;
+}
+.fluid-cont .fluid-text h1{
+    color: white;
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: bolder;
+}
+.fluid-cont .fluid-text h1 span{
+    color: green;
+}
+.fluid-cont button{
+    width: 13vw;
+    height: 8vh;
+    border-radius: 5%;
+    color: black;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+    
+    transition: .5s ease;
+}
+.fluid-cont  button:hover{
+    background: green;
+    border:3px solid black;
+    color: yellow;
+}
+
+/* end of the fluid content */
+/* start of fundraising stories*/
+.fund-div{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+.fund-div .fund-div-cent{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 1rem 2rem 3rem burlywood;
+}
+ .fund-div .fund-div-cent .hero{
+     display: flex;
+     justify-content: space-between;  
+     height: 75vh;
+     width: 60vw; 
+ }
+ .fund-div .fund-div-cent .hero .hero-img{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+    height: 70vh;
+ }
+ .fund-div .fund-div-cent .hero .hero-img .hero-img-men img{
+    width: 20vw;
+    border-radius: 1%;
+ }
+ .fund-div .fund-div-cent .hero .hero-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: green;
+    color: white;
+    border-radius: 1%;
+ }
+ .fund-div .fund-div-cent .hero .hero-btn .btn-icon i{
+     font-size: 3rem;
+ }
+ .fund-div .fund-div-cent .hero .hero-text{
+     display: flex;
+     flex-direction: column;
+    padding: 5%;
+ }
+ .fund-div .fund-div-cent .hero .hero-text .green{
+     color: black;
+     cursor: pointer;
+ }
+ .fund-div .fund-div-cent .hero .hero-text .green:hover{
+    color: green;
+}
+/* end of funderainsing stories */
+/* start of story section */
+    .story-fluid{
+        width: 100%;
+        height: 50vh;
+        background: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .story-fluid .story-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .story-fluid .story-text p{
+        color: white;
+    }
+    .story-fluid .story-text button{
+        width: 18vw;
+        height: 8vh;
+        border-radius: 5%;
+        color: black;
+        background: yellow;
+        border: none;
+        cursor: pointer;
+        margin: 5%;
+        transition: .5s ease;
+    }
+    .story-fluid .story-text button:hover{
+        background: green;
+        border:3px solid black;
+        color: yellow;
+    }
+    
+/* end of story  section*/
+/* start of footer section */
+.foter .fot-1{
+    display: flex;  
+    justify-content: space-around;
+    background: black;
+    color: white;
+}
+.foter .fot-1 .a{
+    display: flex;
+     flex-direction: column;
+}
+.foter .fot-1 .a .input{
+    display: flex;
+    width: 8rem;
+    height: 3rem;
+    background:green;
+}
+.foter .fot-1 .a .input i{
+    font-size: 2rem;
+    background: green;
+    color: white;
+}
+/* end  of footer section */
+/* start of responsive */
+/* tablet view */
+@media(max-width:1000px){
+    .icon-row{
+        display: flex;
+         flex-wrap: wrap;
+    }
+     .icon-row .icon-card{  
+         flex: 0 0 calc(50% - 16px);
+    }  
+    .yellow-div .text-row .text1{
+        flex: 0 0 calc(50% - 16px);
+    }
+    .yellow-div .text-row .text1 h1{
+        font-size: 3rem;
+    }
+    #patient{
+        margin-bottom: 65rem;
+    }
+    /* our test nominals */
+    .carde-div{
+        justify-content: space-around;
+        align-items: center;
+    } 
+    .carde-div .carde{
+        width: 25vw;
+        }
+        .fluid-cont{
+            margin-top: 55rem;
+        }
+        .fund-div{
+            display:  flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .fund-div .fund-div-cent{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            box-shadow: 1rem 2rem 3rem burlywood;
+        }
+         .fund-div .fund-div-cent .hero{
+             display: flex;
+             justify-content: space-between;  
+             height: 140vh;
+             width: 80vw;
+             flex-wrap: wrap; 
+         }
+         .fund-div .fund-div-cent .hero .hero-img{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: space-around;
+            height: 40vh;
+            flex: 0 0 calc(50% - 16px);
+         }
+         .fund-div .fund-div-cent .hero .hero-img .hero-img-men img{
+            
+            border-radius: 1%;
+         }
+         .fund-div .fund-div-cent .hero .hero-btn {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: green;
+            color: white;
+            width: 40vw;
+            border-radius: 1%;
+         }
+         .fund-div .fund-div-cent .hero .hero-btn .btn-icon i{
+             font-size: 3rem;
+         }
+          
+        
+}
+/* tablet view */
+/* mobile view */
+@media(max-width:750px){
+    #patient{
+        margin-bottom: 135rem;
+    }
+    .black-div .green-div .green-div-text button{
+        width: 20vw;  
+    }
+    .fluid-cont{
+        margin-top: 90rem;
+    }
+}
+/* mobile view */
+/* end  of responsive */
